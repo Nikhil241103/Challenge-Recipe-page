@@ -5,18 +5,20 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshot)
+  - [Desktop Screenshot](#desktop-screenshot)
+  - [Mobile Screenshot](#mobile-screenshot)
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### Screenshots
+### Desktop Screenshot
 
 ![](./screenshots/desktop.png)
+
+### Mobile Screenshot
+
 ![](./screenshots/mobile.png)
 
 ### Links
