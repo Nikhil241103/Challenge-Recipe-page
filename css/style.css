@@ -89,6 +89,10 @@ footer a {
 
 /* Mobile */
 @media(max-width: 500px) {
+    body {
+        line-height: 1;
+    }
+
     .hero img {
         border-radius: 0;
     }
