@@ -60,7 +60,7 @@ li::marker {
 
 .nutrition .grid span {
     border-bottom: 1px solid hsl(14, 45%, 36%);
-    padding: 3% 0; 
+    padding: 5% 0; 
 }
 
 .nutrition .grid span:nth-child(odd) {
@@ -80,4 +80,54 @@ footer {
 
 footer a {
     color: hsl(24, 5%, 18%);
+}
+
+/* Tablets and under */
+@media(max-width: 768px) {
+
+}
+
+/* Mobile */
+@media(max-width: 500px) {
+    .hero img {
+        border-radius: 0;
+    }
+
+    .hero h1,
+    .hero p {
+        padding: 0 5%;
+    }
+
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .ingredients ul,
+    .instructions ol {
+        padding: 1% 9%;
+    }
+
+    .ingredients li {
+        margin: 0;
+    }
+
+    .nutrition {
+        margin-bottom: 10%;
+    }
+
+    hr {
+        width: 85%;
+        margin: 1rem auto !important;
+    }
+
+    footer {
+        margin: 5% 0;
+    }
+
+    footer span {
+        display: block;
+    }
 }
