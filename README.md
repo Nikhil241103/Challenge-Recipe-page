@@ -9,7 +9,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Mobile Screenshot](#mobile-screenshot)
   - [Links](#links)
 - [Built with](#built-with)
-- [Author](#author)
 
 ## Overview
 
@@ -23,8 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://challenge-recipe-page.netlify.app/)
 
 ### Built with
 
@@ -32,8 +30,3 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
