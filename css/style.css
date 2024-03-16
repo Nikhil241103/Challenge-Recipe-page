@@ -1,8 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root {
+    --primary-color: hsl(332, 51%, 32%);
+    --secondary-color: hsl(14, 45%, 36%);
+    --primary-bg-color: hsl(30, 54%, 90%);
+    --secondary-bg-color: hsl(0, 0%, 100%);
+}   
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: 'Outfit';
+    color: hsl(24, 5%, 18%);
+    background-color: var(--primary-bg-color);
+    line-height: 1.6;
+}
+
+li::marker {
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hero ul {
+    padding: 0 8%;
+}
+
+.hero li,
+.ingredients li,
+.instructions li {
+    margin: 1% 0;
+    padding-left: 20px;
+}
+
+/* Ingredients */
+.ingredients ul {
+    padding: 1% 4%;
+}
+
+/* Instructions */
+.instructions ol {
+    padding: 1% 4%;
+}
+
+/* Nutrition */
+.nutrition .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nutrition .grid span {
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+    padding: 3% 0; 
+}
+
+.nutrition .grid span:nth-child(odd) {
+    padding-left: 10%;
+}
+
+.nutrition .grid span:last-child,
+.nutrition .grid span:nth-child(7) {
+    border: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(24, 5%, 18%);
 }
